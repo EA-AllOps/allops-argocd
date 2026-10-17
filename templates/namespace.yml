@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: {{ .Values.namespace }}
   labels:
-{{ include "<chart>.labels" . | nindent 4 }}
+{{ include "allops1.labels" . | nindent 4 }}
